@@ -1,15 +1,23 @@
-# Srape Emojis Using Chromium Edge
-- Emoji Scrapper for client server chat extracted from [Emoji Pedia](https://emojipedia.org/)
-- Code base used to extract emojis in text format for [Client-Server Chat](https://github.com/Mini-Sylar/Server-Client-ChatApp) using ***Chromium Edge***
-- Sample output included here [Sample](https://github.com/Mini-Sylar/SrapeEmojis/blob/master/emoji.txt)
+# Scraping Scripts For [Client Server Chat App](https://github.com/Mini-Sylar/Server-Client-ChatApp)
 
-# Purpose
-- Extract emoji as text and assign each emoji to a button
-- Used in [Client-Server Chat](https://github.com/Mini-Sylar/Server-Client-ChatApp) in emoji update
+## Overview
+A scrapper built using selenium to extract emojis from EmojiPedia website
+currently it scrapes the Google version but can easily be modified to scrape other versions.<br/>
+It is currently being used in another project here: [Client Server Chat App](https://github.com/Mini-Sylar/Server-Client-ChatApp) <br>
+- Works with Only Chromium Edge (Can easily to adapted to other browsers)
 
-# Requirements
-- Find in [requirements.txt](https://github.com/Mini-Sylar/SrapeEmojis/blob/master/requirements.txt)
+## Usage
+<pre>
+- Download the <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/">Chromium Edge Web Driver</a>  
+- pip install <a href="./requirements.txt">requirements.txt</a>
+- Run any of the scripts
+</pre>
 
-# Usage
-- Install the webdriver for chromium edge 👉 [Chromium Edge Webdriver](https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sharp)
-- Run Code 
+## Scrape.py
+This opens an emoji, clicks on the copy button on each emoji and places it in *emoji.txt*
+
+## ScrapeEmojiImages
+This saves every emoji as a png in a folder called *Emojis* <br/>
+samples included in [Emojis](./Emojis)
+
+
