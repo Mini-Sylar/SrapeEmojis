@@ -20,4 +20,6 @@ This opens an emoji, clicks on the copy button on each emoji and places it in *e
 This saves every emoji as a png in a folder called *Emojis* <br/>
 samples included in [Emojis](./Emojis)
 
+## Contribution
+Any insight is welcome. especially better ways of reading emojis instead of using a txt file
 
